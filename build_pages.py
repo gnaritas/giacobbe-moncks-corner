@@ -117,7 +117,7 @@ MENU_LD = {
 HOME = """<section class="hero"><div class="wrap herogrid">
 <div class="herotext">
 <p class="kicker">Opening soon &middot; Downtown Moncks Corner</p>
-<h1>{name}&rsquo;</h1>
+<h1>{name}</h1>
 <p class="sub">Trattoria &bull; Pizzeria &bull; Bar</p>
 <p class="lede">Ciao! A family Italian restaurant from Bacoli — the town near Naples — landing at {addr}. New York- and Sicilian-style pizza, pasta made the old way, seafood and steaks. The opening date is coming — everything else is ready.</p>
 <div class="ctarow"><a class="pill big" href="/contact">Email the shop</a><a class="pill ghost" href="/menu">See what&rsquo;s coming</a></div>
@@ -278,7 +278,7 @@ PRIVACY = """<section class="phead"><div class="wrap narrow">
 
 THANKS = """<section class="phead sent"><div class="wrap narrow">
 <p class="eyebrow gold">Sent</p>
-<h1>Your note is on its way to {name}&rsquo;s</h1>
+<h1>Your note is on its way to Giacobbe&rsquo;s</h1>
 <p class="lede">The team reads every message — expect a reply by email. Prefer to write direct? <a href="mailto:{email}">{email}</a>.</p>
 <div class="ctarow"><a class="pill big" href="/">Back to home</a><a class="pill outline" href="/menu">See what&rsquo;s coming</a></div>
 </div></section>
