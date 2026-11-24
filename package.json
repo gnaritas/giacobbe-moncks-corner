@@ -1,0 +1,9 @@
+{
+  "name": "giacobbe-moncks-corner-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Giacobbe's Italian Restaurant & Pizzeria — opening soon, Moncks Corner SC. Template v2 T1 (2026-11-24, t_e4ccda17).",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

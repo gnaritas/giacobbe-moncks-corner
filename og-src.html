@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>og</title>
+<style>
+:root{--paper:#f6efe2;--ink:#17120f;--red:#a4231e;--basil:#3d5a3c;--gold:#cbb992;--serif:"Didot","Bodoni MT","Playfair Display",Georgia,serif;--body:Georgia,"Times New Roman",serif}
+*{box-sizing:border-box;margin:0}
+body{width:1200px;height:630px;background:var(--ink);color:var(--paper);font-family:var(--body);overflow:hidden}
+.card{width:1200px;height:630px;display:grid;grid-template-columns:1fr 380px;gap:30px;padding:56px 64px;position:relative;background:linear-gradient(135deg,rgba(164,35,30,.14),rgba(23,18,15,0) 55%),var(--ink)}
+.kick{font:600 20px/1.4 var(--body);letter-spacing:.3em;text-transform:uppercase;color:#e0a34f;margin-bottom:20px}
+h1{font:700 128px/0.95 var(--serif);letter-spacing:.01em;text-indent:-.03em;margin-bottom:14px}
+.sub{font:600 22px/1 var(--body);letter-spacing:.38em;text-transform:uppercase;color:var(--gold);margin-bottom:34px}
+.line{height:3px;width:180px;background:var(--red);margin-bottom:30px}
+.lede{font:italic 26px/1.5 Georgia,serif;color:#efe4cd;max-width:640px}
+.plate{align-self:center;justify-self:center;width:340px;border:1px double var(--gold);padding:36px 26px 30px;text-align:center;background:#1d1712}
+.g{display:block;font:700 110px/1 var(--serif)}
+.rule{height:4px;margin:18px 0 14px;background:linear-gradient(90deg,var(--basil) 0 33.33%,#f2ead9 33.33% 66.66%,var(--red) 66.66% 100%)}
+.city{display:block;font:600 14px/1.6 var(--body);letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}
+.addr{display:block;font:italic 17px/1.6 Georgia,serif;color:#efe4cd;margin-top:6px}
+.flag{position:absolute;left:0;right:0;bottom:0;height:8px;background:linear-gradient(90deg,var(--basil) 0 33.33%,#f2ead9 33.33% 66.66%,var(--red) 66.66% 100%)}
+</style>
+</head>
+<body>
+<div class="card">
+  <div>
+    <p class="kick">Opening soon · Downtown Moncks Corner</p>
+    <h1>Giacobbe&rsquo;s</h1>
+    <p class="sub">Trattoria &bull; Pizzeria &bull; Bar</p>
+    <div class="line"></div>
+    <p class="lede">New York- &amp; Sicilian-style pizza, homemade pasta, seafood and steaks — a family restaurant from Bacoli, near Naples, landing at 108 W. Railroad Ave.</p>
+  </div>
+  <div class="plate">
+    <span class="g">G</span>
+    <span class="rule"></span>
+    <span class="city">Moncks Corner &middot; South Carolina</span>
+    <span class="addr">108 W. Railroad Ave</span>
+  </div>
+  <div class="flag"></div>
+</div>
+</body>
+</html>
