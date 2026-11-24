@@ -2,7 +2,7 @@
    Didot-class display stack / Georgia body; espresso + cream paper + Naples red + basil. */
 :root{
   --paper:#f6efe2; --panel:#fffdf5; --ink:#17120f; --ink2:#3d342c;
-  --red:#a4231e; --basil:#3d5a3c; --gold:#8a6d1f; --rule:#c9b48a; --cream:#f6efe2;
+  --red:#a4231e; --basil:#3d5a3c; --gold:#8a6d1f; --rule:#a2885b; --cream:#f6efe2;
   --serif:"Didot","Bodoni MT","Playfair Display",Georgia,serif;
   --body:Georgia,"Times New Roman",serif;
 }
@@ -72,6 +72,7 @@ a:focus-visible,.pill:focus-visible,button:focus-visible,input:focus-visible,tex
 .story h2{font:700 clamp(32px,5vw,52px)/1.1 var(--serif);letter-spacing:.01em;margin:0 0 22px}
 .story p{text-align:left;font-size:18px}
 .band{background:var(--ink);color:var(--cream);padding:56px 0;text-align:center}
+.band .ctarow,.phead .ctarow{justify-content:center}
 .band p{color:#efe4cd}
 .band .lede{margin:0 auto 22px}
 blockquote{margin:8px 0 6px;padding:18px 26px;border-left:3px solid var(--red);text-align:left;font:italic 21px/1.6 var(--body);color:#f6efe2;background:#1f1812;max-width:640px;margin-left:auto;margin-right:auto}
@@ -136,6 +137,7 @@ a.fb{font-style:italic}
 .footline{max-width:1080px;margin:0 auto;padding:14px 22px 26px;border-top:1px solid #2b2118;font-size:13px;color:#9d8c6a;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 
 /* responsive */
+@media (min-width:881px){.footnav{align-items:flex-end;text-align:right}}
 @media (max-width:880px){
   .herogrid{grid-template-columns:1fr;gap:34px}
   .heroplate{justify-content:flex-start}
