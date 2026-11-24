@@ -106,7 +106,7 @@ blockquote{margin:8px 0 6px;padding:18px 26px;border-left:3px solid var(--red);t
 a.fb{font-style:italic}
 
 /* contact form */
-.formwrap{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:start;max-width:980px}
+.formwrap{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:start;max-width:1036px}
 .cform .frow{margin-bottom:18px}
 .cform label{display:block;font:600 14px/1.4 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);margin-bottom:7px}
 .opt{font-weight:400;letter-spacing:.04em;text-transform:none;color:var(--gold)}
@@ -135,7 +135,7 @@ a.fb{font-style:italic}
 .ftag{font:italic 14px/1.5 var(--body);color:#9d8c6a;letter-spacing:.08em}
 .footcol p{font-size:15px;margin-bottom:10px}
 .footnav{display:flex;flex-direction:column;gap:8px;font-size:15px}
-.footline{max-width:1080px;margin:0 auto;padding:14px 22px 26px;border-top:1px solid #2b2118;font-size:13px;color:#9d8c6a;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.footline{max-width:1036px;margin:0 auto;padding:14px 22px 26px;border-top:1px solid #2b2118;font-size:13px;color:#9d8c6a;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 
 /* responsive */
 @media (min-width:881px){.footnav{align-items:flex-end;text-align:right}}
